@@ -1,0 +1,207 @@
+p,div{
+    color:white;
+    margin-top:3%;
+    text-align:center;
+}
+
+
+h1{
+    display:grid;
+    color:white;
+    margin-top:40px;
+    place-items: center;
+}
+.outline{
+    width:900px;
+    height: 500px;
+    margin: 0 auto;
+    position:relative;
+    border-radius:50px;
+    border:2px solid #2ecc71;
+    box-shadow: 4px 4px 18px #2ecc71 ;
+}
+.day p{
+    font-size: 30px;
+    color:#3498db;
+    text-shadow: 1px 1px 8px #3498db ;
+}
+.date{
+    font-size: 30px;
+    color:#3498db;
+    text-shadow: 1px 1px 8px #3498db ;
+}
+.time{
+    font-size: 90px;
+    color:#f39c12;
+}
+.temp{
+    font-size: 30px;
+    color:#3498db;
+    text-shadow: 1px 1px 8px #3498db ;
+}
+
+.wish p{
+    top:0;
+    left:80%;
+    font-size:20px;
+    color:#f0ea79;
+    position:absolute;
+    line-height: 45px;
+
+}
+.wish p #geeting-time{
+    font-size:20px;
+    color:#f0ea79;
+    position:absolute;
+    line-height: 45px;
+}
+
+@media  screen and (max-width:992px){
+    .outline{
+        width:700px;
+        height: 300px;
+    }
+
+    .day p{
+        font-size: 20px;
+    }
+
+    .date{
+        font-size: 20px;
+    }
+
+    .time{
+        font-size: 40px;
+    }
+
+    .temp{
+        font-size: 20px;
+    }
+    
+    .wish p{
+        font-size:15px;
+    }
+
+}
+
+@media  screen and (max-width:768px){
+    .outline{
+        width:500px;
+        height: 250px;
+    }
+
+    .day p{
+        font-size: 15px;
+    }
+
+    .date{
+        font-size: 15px;
+    }
+
+    .time{
+        font-size: 30px;
+    }
+
+    .temp{
+        font-size: 15px;
+    }
+    
+    .wish p{
+        left:75%;
+        font-size:13px;
+    }
+
+}
+
+@media  screen and (max-width:576px){
+    .outline{
+        width:400px;
+        height: 190px;
+    }
+
+    .day p{
+        font-size: 12px;
+    }
+
+    .date{
+        font-size: 12px;
+    }
+
+    .time{
+        font-size: 22px;
+    }
+
+    .temp{
+        font-size: 12px;
+    }
+    
+    .wish p{
+        left:75%;
+        font-size:10px;
+    }
+
+}
+
+@media  screen and (max-width:450px){
+    .outline{
+        width:300px;
+        height: 190px;
+    }
+
+    .day p{
+        font-size: 10px;
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
+    .time{
+        font-size: 28px;
+    }
+
+    .temp{
+        font-size: 10px;
+    }
+    
+    .wish p{
+        left:75%;
+        font-size:8px;
+    }
+
+}
+@media  screen and (max-width:350px){
+    .outline{
+        width:200px;
+        height: 300px;
+        line-height: 250%;
+    }
+
+    .day p{
+        margin-top:20%; 
+        font-size: 10px;
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
+    .time{
+        font-size: 28px;
+    }
+
+    .temp{
+        font-size: 10px;
+    }
+    
+    .wish p{
+        left:55%;
+        font-size:8px;
+        line-height: 160%;
+    }
+
+}
+
+
+
+
